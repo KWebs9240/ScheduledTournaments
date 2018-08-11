@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ChallongeApiHelper
 {
-    public static class ChallongeHttpHelper
+    public static partial class ChallongeHttpHelper
     {
         private static HttpClient challHttpClient;
 
@@ -32,7 +32,7 @@ namespace ChallongeApiHelper
             return true;
         }
 
-        public static string Get(string route, Dictionary<string, string> qsParams = null)
+        public static string BasicGet(string route)
         {
             return challHttpClient.GetAsync(route).Result.Content.ReadAsStringAsync().Result;
         }
