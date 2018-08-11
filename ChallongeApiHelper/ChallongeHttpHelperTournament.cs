@@ -8,6 +8,6 @@ namespace ChallongeApiHelper
 {
     public static partial class ChallongeHttpHelperTournament
     {
-        public 
+        
     }
 }

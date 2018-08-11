@@ -14,7 +14,7 @@ namespace SchedTournamentsFunc
             log.Info($"C# Timer trigger function executed at: {DateTime.Now}");
 
             ChallongeHttpHelper.setAuthorizationHeader("Chimp9240", "mLeoIg8SM17KTYrGbWazH24YgKcGhHqIAK7W3F8m");
-            var test = ChallongeHttpHelper.Get("tournaments.json");
+            var test = ChallongeHttpHelper.BasicGet("tournaments.json");
 
 
 
