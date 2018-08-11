@@ -13,7 +13,7 @@ namespace SchedTournamentsFunc
     public static class MakeWeekly
     {
         [FunctionName("MakeWeekly")]
-        public static void Run([TimerTrigger("0 */1 * * * *")]TimerInfo myTimer, TraceWriter log)
+        public static void Run([TimerTrigger("0 0 15 * * 1")]TimerInfo myTimer, TraceWriter log)
         {
             log.Info($"C# Timer trigger function executed at: {DateTime.Now}");
 
