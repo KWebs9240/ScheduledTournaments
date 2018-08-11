@@ -44,6 +44,7 @@
     <Compile Include="Tournament\TournamentConstants.cs" />
     <Compile Include="Tournament\TournamentCreation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tournament\TournamentHolderGarbage.cs" />
     <Compile Include="Tournament\TournamentRetrieval.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

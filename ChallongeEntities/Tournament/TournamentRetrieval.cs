@@ -17,7 +17,7 @@ namespace ChallongeEntities.Tournament
         public bool created_by_api { get; set; }
         public bool credit_capped { get; set; }
         public string description { get; set; }
-        public int game_id { get; set; }
+        public int? game_id { get; set; }
         public bool group_stages_enabled { get; set; }
         public bool hide_forum { get; set; }
         public bool hide_seeds { get; set; }
@@ -53,7 +53,7 @@ namespace ChallongeEntities.Tournament
         public DateTime? started_checking_in_at { get; set; }
         public string state { get; set; }
         public int swiss_rounds { get; set; }
-        public bool teams { get; set; }
+        public bool? teams { get; set; }
         public List<string> tie_breaks { get; set; }
         public string tournament_type { get; set; }
         public DateTime updated_at { get; set; }
